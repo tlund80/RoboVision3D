@@ -1,0 +1,4 @@
+uint32 size
+uint32 parameter_type_id
+string operator_str
+string value

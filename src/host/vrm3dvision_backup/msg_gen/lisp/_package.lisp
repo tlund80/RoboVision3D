@@ -1,0 +1,9 @@
+(cl:defpackage vrm3dvision-msg
+  (:use )
+  (:export
+   "<SURFACEMODELPARAMS>"
+   "SURFACEMODELPARAMS"
+   "<ALIGNMENTPREREJECTIVEPARAMS>"
+   "ALIGNMENTPREREJECTIVEPARAMS"
+  ))
+

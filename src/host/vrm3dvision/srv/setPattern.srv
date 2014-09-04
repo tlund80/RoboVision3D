@@ -1,0 +1,10 @@
+int32 LARGE_GAP_GC = 0
+int32 CONVENTIONAL_GC = 1
+
+bool partial_view
+int32 resolution
+int32 type
+bool use_simple_occlusion
+bool add_point_colors
+---
+bool success

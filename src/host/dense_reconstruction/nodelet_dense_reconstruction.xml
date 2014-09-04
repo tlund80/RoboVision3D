@@ -1,0 +1,24 @@
+<library path="lib/libdisparity">
+
+  <class name="dense_reconstruction/DisparityNodelet" type="dense_reconstruction::DisparityNodelet" base_class_type="nodelet::Nodelet">
+    <description> Disparity nodelet.  </description>
+  </class>
+
+</library>
+
+
+<library path="lib/libpoint_cloud2">
+
+  <class name="dense_reconstruction/PointCloud2Nodelet" type="dense_reconstruction::PointCloud2Nodelet" base_class_type="nodelet::Nodelet">
+    <description> PointCloud2 nodelet.  </description>
+  </class>
+
+</library>
+
+<library path="lib/libdisparitySGBM">
+
+  <class name="dense_reconstruction/DisparitySGBMNodelet" type="dense_reconstruction::DisparitySGBMNodelet" base_class_type="nodelet::Nodelet">
+    <description> DisparitySGBM nodelet.  </description>
+  </class>
+
+</library>

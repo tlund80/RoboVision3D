@@ -1,0 +1,172 @@
+/********************************************************************************************************************
+ *
+ * \file                pcl_pointcloud_viewer_node.cpp
+ * \author              Jeppe Pedersen (jepp@teknologisk.dk)
+ * \date                2013-10-22
+ * \version             0.1
+ * \brief
+ *
+*********************************************************************************************************************/
+
+#include "ros/ros.h"
+#include "sensor_msgs/PointCloud2.h"
+#include "sensor_msgs/point_cloud_conversion.h"
+#include <pcl/common/common_headers.h>
+#include <pcl_ros/transforms.h>
+#include <pcl/common/transforms.h>
+#include <pcl/io/io.h>
+#include <pcl/io/pcd_io.h>
+#include <pcl/PolygonMesh.h>
+#include <pcl/io/obj_io.h>
+#include <pcl/io/vtk_lib_io.h> // load polygon file (.obj)
+#include <pcl/visualization/pcl_visualizer.h>
+#include <pcl/filters/filter.h>
+#include <pcl/filters/passthrough.h>
+#include <pcl/filters/voxel_grid.h>
+#include <ros/package.h>
+#include <pcl_conversions/pcl_conversions.h>
+<<<<<<< HEAD
+#include <tf/transform_listener.h>
+
+pcl::visualization::PCLVisualizer* viewer;
+pcl::PointCloud<pcl::PointXYZ> point_cloud;
+pcl::PolygonMesh model_mesh;
+=======
+#include <pcl_ros/point_cloud.h>
+
+pcl::visualization::PCLVisualizer* viewer;
+>>>>>>> ac64b24c8154fb032263b8720719b07ece923bf3
+
+void pointCloudCallback(const pcl::PointCloud<pcl::PointXYZRGB>::ConstPtr& point_cloud)
+{
+	pcl::visualization::PointCloudColorHandlerRGBField<pcl::PointXYZRGB> rgb(point_cloud);
+    if(!viewer->updatePointCloud<pcl::PointXYZRGB>(point_cloud,rgb))
+    {
+    	viewer->addPointCloud<pcl::PointXYZRGB>(point_cloud,rgb);
+    	viewer->setPointCloudRenderingProperties(pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 1);
+    	// Find center of pointcloud
+    	double x(0),y(0),z(0);
+    	for (size_t i = 0; i < point_cloud->points.size(); i++)
+    	{
+    		x += point_cloud->points[i].x;
+    		y += point_cloud->points[i].y;
+    		z += point_cloud->points[i].z;
+    	}
+    	x /= point_cloud->points.size();
+    	y /= point_cloud->points.size();
+    	z /= point_cloud->points.size();
+    	// Set camera to pivot around center of point cloud
+    	viewer->setCameraPosition(x,y,z/4,x,y,z,0,1,0);
+
+    }
+}
+
+void keyboardCallBack(const pcl::visualization::KeyboardEvent &event, void* viewer_void)
+{
+	if (event.getKeyCode() == 's' && event.keyUp())
+	{
+//		pcl::PointCloud<pcl::PointXYZ>::Ptr point_cloud_no_nan(new pcl::PointCloud<pcl::PointXYZ>);
+//		std::vector<int> tmp;
+//		pcl::removeNaNFromPointCloud(point_cloud, *point_cloud_no_nan,tmp);
+//		std::string path = ros::package::getPath("vrm3dvision") + std::string("/") + std::string("pc_sgbm.pcd");
+//		ROS_INFO_STREAM("Saving Point Cloud as PCD file to: " << path);
+//		pcl::io::savePCDFileASCII(path, *point_cloud_no_nan);
+//
+//		// save trimmed point cloud
+//		pcl::PassThrough<pcl::PointXYZ> pass;
+//		pass.setInputCloud(point_cloud_no_nan);
+//		pass.setFilterFieldName ("z");
+//		pass.setFilterLimits (0.0, 0.38);
+//		//pass.setFilterLimitsNegative (true);
+//		pcl::PointCloud<pcl::PointXYZ>::Ptr point_cloud_filtered(new pcl::PointCloud<pcl::PointXYZ>);
+//		pass.filter (*point_cloud_filtered);
+//
+//		std::string path_trimmed = ros::package::getPath("vrm3dvision") + std::string("/") + std::string("pc_sgbm_trimmed.pcd");
+//		pcl::io::savePCDFileASCII(path_trimmed, *point_cloud_filtered);
+//		ROS_INFO_STREAM("Saving Trimmed Point Cloud as PCD file to: " << path_trimmed);
+//
+//		double leaf_size = 0.001;
+//		// Subsample point cloud
+//		 pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_filtered (new pcl::PointCloud<pcl::PointXYZ>);
+//		// Create the filtering object
+//		pcl::VoxelGrid<pcl::PointXYZ> sor;
+//		sor.setInputCloud (point_cloud_filtered);
+//		sor.setLeafSize (leaf_size,leaf_size,leaf_size);
+//		sor.filter (*cloud_filtered);
+//
+//		std::string path_trimmed_downsampled = ros::package::getPath("vrm3dvision") + std::string("/") + std::string("pc_sgbm_trimmed_downsampled.pcd");
+//		pcl::io::savePCDFileASCII(path_trimmed_downsampled, *cloud_filtered);
+//		ROS_INFO_STREAM("Saving Trimmed Point Cloud as PCD file to: " << path_trimmed_downsampled);
+
+
+	}
+}
+
+void modelMeshCallback(const pcl_msgs::PolygonMesh::ConstPtr& msg)
+{
+	static tf::TransformListener listener;
+
+	ROS_WARN_STREAM("ModelMeshCallback Called! ");
+
+    tf::StampedTransform transform;
+    try{
+    	listener.lookupTransform("camera", "object", ros::Time(0), transform);
+    }
+    catch (tf::TransformException ex){
+    	ROS_ERROR("%s",ex.what());
+    	return;
+    }
+    Eigen::Matrix4f transformation_matrix;
+    pcl_ros::transformAsMatrix(transform, transformation_matrix);
+
+    pcl_conversions::toPCL(*msg, model_mesh);
+    pcl::PointCloud<pcl::PointXYZ> tmp;
+    pcl::fromPCLPointCloud2(model_mesh.cloud, tmp);
+
+    pcl::transformPointCloud(tmp, tmp, transformation_matrix);
+    pcl::toPCLPointCloud2(tmp,model_mesh.cloud);
+
+    if(!viewer->updatePolygonMesh(model_mesh,"Model"))
+    {
+    	viewer->addPolygonMesh(model_mesh,"Model");
+    	viewer->setPointCloudRenderingProperties(pcl::visualization::PCL_VISUALIZER_OPACITY, 0.1, "Model");
+    }
+}
+
+int main(int argc, char **argv)
+{
+	ros::init(argc, argv, "pcl_pointcloud_viewer");
+	ros::NodeHandle nh("/");
+
+	// Read parameter from launch file
+	ros::NodeHandle local_nh("~");
+	std::string point_cloud_topic;
+	std::string model_mesh_topic;
+	local_nh.param<std::string>("point_cloud_subscriber_topic", point_cloud_topic, "point_cloud");
+	local_nh.param<std::string>("model_mesh_subscriber_topic", model_mesh_topic, "model_mesh");
+
+<<<<<<< HEAD
+	ros::Subscriber pc_subscriber = nh.subscribe<sensor_msgs::PointCloud2>(point_cloud_topic, 1, pointCloudCallback);
+	ros::Subscriber model_subscriber = nh.subscribe<pcl_msgs::PolygonMesh>(model_mesh_topic, 1, modelMeshCallback);
+=======
+	ros::Subscriber pc_subscriber = nh.subscribe<pcl::PointCloud<pcl::PointXYZRGB> >(point_cloud_topic, 1, pointCloudCallback);
+>>>>>>> ac64b24c8154fb032263b8720719b07ece923bf3
+
+	//Create visualizer
+	viewer = new pcl::visualization::PCLVisualizer("3D Viewer");
+	viewer->setBackgroundColor(0, 0, 0);
+	viewer->addCoordinateSystem(0.1);
+	viewer->initCameraParameters();
+
+	viewer->registerKeyboardCallback(keyboardCallBack, (void*)&viewer);
+
+	//Main loop
+	while (!viewer->wasStopped() && ros::ok())
+	{
+		ros::spinOnce();
+		viewer->spinOnce(25);
+	}
+
+	delete(viewer);
+	return 0;
+}

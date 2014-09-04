@@ -1,0 +1,2 @@
+GUITemplate theTemplate
+GUISkill[] skills

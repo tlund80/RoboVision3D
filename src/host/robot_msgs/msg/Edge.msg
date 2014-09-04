@@ -1,0 +1,5 @@
+string edge_id
+int32 number_of_traverses
+float64 probability
+string from_vertex_id
+string to_vertex_id

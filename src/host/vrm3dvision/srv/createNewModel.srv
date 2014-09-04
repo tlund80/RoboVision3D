@@ -1,0 +1,6 @@
+string model_name
+string cad_path
+SurfaceModelParams smp
+AlignmentPrerejectiveParams app
+---
+bool success

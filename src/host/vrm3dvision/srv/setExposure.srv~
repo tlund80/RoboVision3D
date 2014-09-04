@@ -1,0 +1,8 @@
+int8 LEFT_CAMERA = 1
+int8 RIGHT_CAMERA = 2
+int8 COLOR_CAMERA = 4
+
+int8 camera
+float32 exposure
+---
+bool success

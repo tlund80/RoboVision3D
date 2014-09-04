@@ -1,0 +1,12 @@
+<launch>
+
+  <arg name="board_ip" 		default="192.168.50.10" />
+  <arg name="has_left_cam" 	default="true" />
+  <arg name="has_right_cam" 	default="true" />
+  <arg name="has_color_cam" 	default="false" />
+  <arg name="stereo_cam_topic"  default="vrm3dvision" />
+
+image_raw left_camera=$(arg stereo_cam_topic)/left right_camera=$(arg stereo_cam_topic)/right" output="screen">	<node pkg="camera_calibration" type="cameracalibrator.py" name="StereoCameraCalibration" args="--size 8x6 --square 0.108 left=$(arg stereo_cam_topic)/left/image_raw right=$(arg stereo_cam_topic)/right/
+
+	</node>
+</launch>

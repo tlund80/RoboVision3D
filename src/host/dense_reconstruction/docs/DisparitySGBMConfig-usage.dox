@@ -1,0 +1,17 @@
+\subsubsection usage Usage
+\verbatim
+<node name="dense_reconstruction" pkg="dense_reconstruction" type="dense_reconstruction">
+  <param name="prefilter_cap" type="int" value="63" />
+  <param name="min_disparity" type="int" value="512" />
+  <param name="disparity_range" type="int" value="192" />
+  <param name="uniqueness_ratio" type="double" value="15.0" />
+  <param name="SADWindowSize" type="int" value="7" />
+  <param name="P1" type="int" value="64" />
+  <param name="P2" type="int" value="128" />
+  <param name="speckle_size" type="int" value="200" />
+  <param name="speckle_range" type="int" value="2" />
+  <param name="disp12MaxDiff" type="int" value="-1" />
+  <param name="fullDP" type="bool" value="True" />
+</node>
+\endverbatim
+

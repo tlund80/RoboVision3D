@@ -1,0 +1,9 @@
+int32 NONE = 0
+int32 LEFT_CENTER_RIGHT = 1
+int32 LEFT_RIGHT = 2
+int32 LEFT_CENTER = 3
+int32 CENTER_RIGHT = 4
+
+int32 cameras
+---
+bool success

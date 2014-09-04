@@ -1,0 +1,1364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject>
+<storageModule moduleId="org.eclipse.cdt.core.settings">
+<cconfiguration id="org.eclipse.cdt.core.default.config.1">
+<storageModule buildSystemId="org.eclipse.cdt.core.defaultConfigDataProvider" id="org.eclipse.cdt.core.default.config.1" moduleId="org.eclipse.cdt.core.settings" name="Configuration">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser">
+<attribute key="addr2line" value="addr2line"/>
+<attribute key="c++filt" value="c++filt"/>
+</extension>
+</extensions>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+<project-mappings/>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.pathentry">
+<pathentry excluding="**/CMakeFiles/" kind="out" path=""/>
+<pathentry kind="mac" name="QT_GUI_LIB" path="" value=""/>
+<pathentry kind="mac" name="QT_CORE_LIB" path="" value=""/>
+<pathentry kind="mac" name="QT_NO_KEYWORDS" path="" value=""/>
+<pathentry kind="mac" name="RW_ENABLE_ASSERT" path="" value=""/>
+<pathentry kind="mac" name="__STDC__" path="" value="1"/>
+<pathentry kind="mac" name="__STDC_HOSTED__" path="" value="1"/>
+<pathentry kind="mac" name="__GNUC__" path="" value="4"/>
+<pathentry kind="mac" name="__GNUC_MINOR__" path="" value="6"/>
+<pathentry kind="mac" name="__GNUC_PATCHLEVEL__" path="" value="3"/>
+<pathentry kind="mac" name="__VERSION__" path="" value="&quot;4.6.3&quot;"/>
+<pathentry kind="mac" name="__FINITE_MATH_ONLY__" path="" value=" "/>
+<pathentry kind="mac" name="_LP64" path="" value="1"/>
+<pathentry kind="mac" name="__LP64__" path="" value="1"/>
+<pathentry kind="mac" name="__SIZEOF_INT__" path="" value="4"/>
+<pathentry kind="mac" name="__SIZEOF_LONG__" path="" value="8"/>
+<pathentry kind="mac" name="__SIZEOF_LONG_LONG__" path="" value="8"/>
+<pathentry kind="mac" name="__SIZEOF_SHORT__" path="" value="2"/>
+<pathentry kind="mac" name="__SIZEOF_FLOAT__" path="" value="4"/>
+<pathentry kind="mac" name="__SIZEOF_DOUBLE__" path="" value="8"/>
+<pathentry kind="mac" name="__SIZEOF_LONG_DOUBLE__" path="" value="16"/>
+<pathentry kind="mac" name="__SIZEOF_SIZE_T__" path="" value="8"/>
+<pathentry kind="mac" name="__CHAR_BIT__" path="" value="8"/>
+<pathentry kind="mac" name="__BIGGEST_ALIGNMENT__" path="" value="16"/>
+<pathentry kind="mac" name="__ORDER_LITTLE_ENDIAN__" path="" value="1234"/>
+<pathentry kind="mac" name="__ORDER_BIG_ENDIAN__" path="" value="4321"/>
+<pathentry kind="mac" name="__ORDER_PDP_ENDIAN__" path="" value="3412"/>
+<pathentry kind="mac" name="__BYTE_ORDER__" path="" value="__ORDER_LITTLE_ENDIAN__"/>
+<pathentry kind="mac" name="__FLOAT_WORD_ORDER__" path="" value="__ORDER_LITTLE_ENDIAN__"/>
+<pathentry kind="mac" name="__SIZEOF_POINTER__" path="" value="8"/>
+<pathentry kind="mac" name="__SIZE_TYPE__" path="" value="long unsigned int"/>
+<pathentry kind="mac" name="__PTRDIFF_TYPE__" path="" value="long int"/>
+<pathentry kind="mac" name="__WCHAR_TYPE__" path="" value="int"/>
+<pathentry kind="mac" name="__WINT_TYPE__" path="" value="unsigned int"/>
+<pathentry kind="mac" name="__INTMAX_TYPE__" path="" value="long int"/>
+<pathentry kind="mac" name="__UINTMAX_TYPE__" path="" value="long unsigned int"/>
+<pathentry kind="mac" name="__CHAR16_TYPE__" path="" value="short unsigned int"/>
+<pathentry kind="mac" name="__CHAR32_TYPE__" path="" value="unsigned int"/>
+<pathentry kind="mac" name="__SIG_ATOMIC_TYPE__" path="" value="int"/>
+<pathentry kind="mac" name="__INT8_TYPE__" path="" value="signed char"/>
+<pathentry kind="mac" name="__INT16_TYPE__" path="" value="short int"/>
+<pathentry kind="mac" name="__INT32_TYPE__" path="" value="int"/>
+<pathentry kind="mac" name="__INT64_TYPE__" path="" value="long int"/>
+<pathentry kind="mac" name="__UINT8_TYPE__" path="" value="unsigned char"/>
+<pathentry kind="mac" name="__UINT16_TYPE__" path="" value="short unsigned int"/>
+<pathentry kind="mac" name="__UINT32_TYPE__" path="" value="unsigned int"/>
+<pathentry kind="mac" name="__UINT64_TYPE__" path="" value="long unsigned int"/>
+<pathentry kind="mac" name="__INT_LEAST8_TYPE__" path="" value="signed char"/>
+<pathentry kind="mac" name="__INT_LEAST16_TYPE__" path="" value="short int"/>
+<pathentry kind="mac" name="__INT_LEAST32_TYPE__" path="" value="int"/>
+<pathentry kind="mac" name="__INT_LEAST64_TYPE__" path="" value="long int"/>
+<pathentry kind="mac" name="__UINT_LEAST8_TYPE__" path="" value="unsigned char"/>
+<pathentry kind="mac" name="__UINT_LEAST16_TYPE__" path="" value="short unsigned int"/>
+<pathentry kind="mac" name="__UINT_LEAST32_TYPE__" path="" value="unsigned int"/>
+<pathentry kind="mac" name="__UINT_LEAST64_TYPE__" path="" value="long unsigned int"/>
+<pathentry kind="mac" name="__INT_FAST8_TYPE__" path="" value="signed char"/>
+<pathentry kind="mac" name="__INT_FAST16_TYPE__" path="" value="long int"/>
+<pathentry kind="mac" name="__INT_FAST32_TYPE__" path="" value="long int"/>
+<pathentry kind="mac" name="__INT_FAST64_TYPE__" path="" value="long int"/>
+<pathentry kind="mac" name="__UINT_FAST8_TYPE__" path="" value="unsigned char"/>
+<pathentry kind="mac" name="__UINT_FAST16_TYPE__" path="" value="long unsigned int"/>
+<pathentry kind="mac" name="__UINT_FAST32_TYPE__" path="" value="long unsigned int"/>
+<pathentry kind="mac" name="__UINT_FAST64_TYPE__" path="" value="long unsigned int"/>
+<pathentry kind="mac" name="__INTPTR_TYPE__" path="" value="long int"/>
+<pathentry kind="mac" name="__UINTPTR_TYPE__" path="" value="long unsigned int"/>
+<pathentry kind="mac" name="__GXX_ABI_VERSION" path="" value="1002"/>
+<pathentry kind="mac" name="__SCHAR_MAX__" path="" value="127"/>
+<pathentry kind="mac" name="__SHRT_MAX__" path="" value="32767"/>
+<pathentry kind="mac" name="__INT_MAX__" path="" value="2147483647"/>
+<pathentry kind="mac" name="__LONG_MAX__" path="" value="9223372036854775807L"/>
+<pathentry kind="mac" name="__LONG_LONG_MAX__" path="" value="9223372036854775807LL"/>
+<pathentry kind="mac" name="__WCHAR_MAX__" path="" value="2147483647"/>
+<pathentry kind="mac" name="__WCHAR_MIN__" path="" value="(-__WCHAR_MAX__ - 1)"/>
+<pathentry kind="mac" name="__WINT_MAX__" path="" value="4294967295U"/>
+<pathentry kind="mac" name="__WINT_MIN__" path="" value="0U"/>
+<pathentry kind="mac" name="__PTRDIFF_MAX__" path="" value="9223372036854775807L"/>
+<pathentry kind="mac" name="__SIZE_MAX__" path="" value="18446744073709551615UL"/>
+<pathentry kind="mac" name="__INTMAX_MAX__" path="" value="9223372036854775807L"/>
+<pathentry kind="mac" name="__INTMAX_C(c)" path="" value="c ## L"/>
+<pathentry kind="mac" name="__UINTMAX_MAX__" path="" value="18446744073709551615UL"/>
+<pathentry kind="mac" name="__UINTMAX_C(c)" path="" value="c ## UL"/>
+<pathentry kind="mac" name="__SIG_ATOMIC_MAX__" path="" value="2147483647"/>
+<pathentry kind="mac" name="__SIG_ATOMIC_MIN__" path="" value="(-__SIG_ATOMIC_MAX__ - 1)"/>
+<pathentry kind="mac" name="__INT8_MAX__" path="" value="127"/>
+<pathentry kind="mac" name="__INT16_MAX__" path="" value="32767"/>
+<pathentry kind="mac" name="__INT32_MAX__" path="" value="2147483647"/>
+<pathentry kind="mac" name="__INT64_MAX__" path="" value="9223372036854775807L"/>
+<pathentry kind="mac" name="__UINT8_MAX__" path="" value="255"/>
+<pathentry kind="mac" name="__UINT16_MAX__" path="" value="65535"/>
+<pathentry kind="mac" name="__UINT32_MAX__" path="" value="4294967295U"/>
+<pathentry kind="mac" name="__UINT64_MAX__" path="" value="18446744073709551615UL"/>
+<pathentry kind="mac" name="__INT_LEAST8_MAX__" path="" value="127"/>
+<pathentry kind="mac" name="__INT8_C(c)" path="" value="c"/>
+<pathentry kind="mac" name="__INT_LEAST16_MAX__" path="" value="32767"/>
+<pathentry kind="mac" name="__INT16_C(c)" path="" value="c"/>
+<pathentry kind="mac" name="__INT_LEAST32_MAX__" path="" value="2147483647"/>
+<pathentry kind="mac" name="__INT32_C(c)" path="" value="c"/>
+<pathentry kind="mac" name="__INT_LEAST64_MAX__" path="" value="9223372036854775807L"/>
+<pathentry kind="mac" name="__INT64_C(c)" path="" value="c ## L"/>
+<pathentry kind="mac" name="__UINT_LEAST8_MAX__" path="" value="255"/>
+<pathentry kind="mac" name="__UINT8_C(c)" path="" value="c"/>
+<pathentry kind="mac" name="__UINT_LEAST16_MAX__" path="" value="65535"/>
+<pathentry kind="mac" name="__UINT16_C(c)" path="" value="c"/>
+<pathentry kind="mac" name="__UINT_LEAST32_MAX__" path="" value="4294967295U"/>
+<pathentry kind="mac" name="__UINT32_C(c)" path="" value="c ## U"/>
+<pathentry kind="mac" name="__UINT_LEAST64_MAX__" path="" value="18446744073709551615UL"/>
+<pathentry kind="mac" name="__UINT64_C(c)" path="" value="c ## UL"/>
+<pathentry kind="mac" name="__INT_FAST8_MAX__" path="" value="127"/>
+<pathentry kind="mac" name="__INT_FAST16_MAX__" path="" value="9223372036854775807L"/>
+<pathentry kind="mac" name="__INT_FAST32_MAX__" path="" value="9223372036854775807L"/>
+<pathentry kind="mac" name="__INT_FAST64_MAX__" path="" value="9223372036854775807L"/>
+<pathentry kind="mac" name="__UINT_FAST8_MAX__" path="" value="255"/>
+<pathentry kind="mac" name="__UINT_FAST16_MAX__" path="" value="18446744073709551615UL"/>
+<pathentry kind="mac" name="__UINT_FAST32_MAX__" path="" value="18446744073709551615UL"/>
+<pathentry kind="mac" name="__UINT_FAST64_MAX__" path="" value="18446744073709551615UL"/>
+<pathentry kind="mac" name="__INTPTR_MAX__" path="" value="9223372036854775807L"/>
+<pathentry kind="mac" name="__UINTPTR_MAX__" path="" value="18446744073709551615UL"/>
+<pathentry kind="mac" name="__FLT_EVAL_METHOD__" path="" value=" "/>
+<pathentry kind="mac" name="__DEC_EVAL_METHOD__" path="" value="2"/>
+<pathentry kind="mac" name="__FLT_RADIX__" path="" value="2"/>
+<pathentry kind="mac" name="__FLT_MANT_DIG__" path="" value="24"/>
+<pathentry kind="mac" name="__FLT_DIG__" path="" value="6"/>
+<pathentry kind="mac" name="__FLT_MIN_EXP__" path="" value="(-125)"/>
+<pathentry kind="mac" name="__FLT_MIN_10_EXP__" path="" value="(-37)"/>
+<pathentry kind="mac" name="__FLT_MAX_EXP__" path="" value="128"/>
+<pathentry kind="mac" name="__FLT_MAX_10_EXP__" path="" value="38"/>
+<pathentry kind="mac" name="__FLT_DECIMAL_DIG__" path="" value="9"/>
+<pathentry kind="mac" name="__FLT_MAX__" path="" value="3.40282346638528859812e+38F"/>
+<pathentry kind="mac" name="__FLT_MIN__" path="" value="1.17549435082228750797e-38F"/>
+<pathentry kind="mac" name="__FLT_EPSILON__" path="" value="1.19209289550781250000e-7F"/>
+<pathentry kind="mac" name="__FLT_DENORM_MIN__" path="" value="1.40129846432481707092e-45F"/>
+<pathentry kind="mac" name="__FLT_HAS_DENORM__" path="" value="1"/>
+<pathentry kind="mac" name="__FLT_HAS_INFINITY__" path="" value="1"/>
+<pathentry kind="mac" name="__FLT_HAS_QUIET_NAN__" path="" value="1"/>
+<pathentry kind="mac" name="__DBL_MANT_DIG__" path="" value="53"/>
+<pathentry kind="mac" name="__DBL_DIG__" path="" value="15"/>
+<pathentry kind="mac" name="__DBL_MIN_EXP__" path="" value="(-1021)"/>
+<pathentry kind="mac" name="__DBL_MIN_10_EXP__" path="" value="(-307)"/>
+<pathentry kind="mac" name="__DBL_MAX_EXP__" path="" value="1024"/>
+<pathentry kind="mac" name="__DBL_MAX_10_EXP__" path="" value="308"/>
+<pathentry kind="mac" name="__DBL_DECIMAL_DIG__" path="" value="17"/>
+<pathentry kind="mac" name="__DBL_MAX__" path="" value="((double)1.79769313486231570815e+308L)"/>
+<pathentry kind="mac" name="__DBL_MIN__" path="" value="((double)2.22507385850720138309e-308L)"/>
+<pathentry kind="mac" name="__DBL_EPSILON__" path="" value="((double)2.22044604925031308085e-16L)"/>
+<pathentry kind="mac" name="__DBL_DENORM_MIN__" path="" value="((double)4.94065645841246544177e-324L)"/>
+<pathentry kind="mac" name="__DBL_HAS_DENORM__" path="" value="1"/>
+<pathentry kind="mac" name="__DBL_HAS_INFINITY__" path="" value="1"/>
+<pathentry kind="mac" name="__DBL_HAS_QUIET_NAN__" path="" value="1"/>
+<pathentry kind="mac" name="__LDBL_MANT_DIG__" path="" value="64"/>
+<pathentry kind="mac" name="__LDBL_DIG__" path="" value="18"/>
+<pathentry kind="mac" name="__LDBL_MIN_EXP__" path="" value="(-16381)"/>
+<pathentry kind="mac" name="__LDBL_MIN_10_EXP__" path="" value="(-4931)"/>
+<pathentry kind="mac" name="__LDBL_MAX_EXP__" path="" value="16384"/>
+<pathentry kind="mac" name="__LDBL_MAX_10_EXP__" path="" value="4932"/>
+<pathentry kind="mac" name="__DECIMAL_DIG__" path="" value="21"/>
+<pathentry kind="mac" name="__LDBL_MAX__" path="" value="1.18973149535723176502e+4932L"/>
+<pathentry kind="mac" name="__LDBL_MIN__" path="" value="3.36210314311209350626e-4932L"/>
+<pathentry kind="mac" name="__LDBL_EPSILON__" path="" value="1.08420217248550443401e-19L"/>
+<pathentry kind="mac" name="__LDBL_DENORM_MIN__" path="" value="3.64519953188247460253e-4951L"/>
+<pathentry kind="mac" name="__LDBL_HAS_DENORM__" path="" value="1"/>
+<pathentry kind="mac" name="__LDBL_HAS_INFINITY__" path="" value="1"/>
+<pathentry kind="mac" name="__LDBL_HAS_QUIET_NAN__" path="" value="1"/>
+<pathentry kind="mac" name="__DEC32_MANT_DIG__" path="" value="7"/>
+<pathentry kind="mac" name="__DEC32_MIN_EXP__" path="" value="(-94)"/>
+<pathentry kind="mac" name="__DEC32_MAX_EXP__" path="" value="97"/>
+<pathentry kind="mac" name="__DEC32_MIN__" path="" value="1E-95DF"/>
+<pathentry kind="mac" name="__DEC32_MAX__" path="" value="9.999999E96DF"/>
+<pathentry kind="mac" name="__DEC32_EPSILON__" path="" value="1E-6DF"/>
+<pathentry kind="mac" name="__DEC32_SUBNORMAL_MIN__" path="" value="0.000001E-95DF"/>
+<pathentry kind="mac" name="__DEC64_MANT_DIG__" path="" value="16"/>
+<pathentry kind="mac" name="__DEC64_MIN_EXP__" path="" value="(-382)"/>
+<pathentry kind="mac" name="__DEC64_MAX_EXP__" path="" value="385"/>
+<pathentry kind="mac" name="__DEC64_MIN__" path="" value="1E-383DD"/>
+<pathentry kind="mac" name="__DEC64_MAX__" path="" value="9.999999999999999E384DD"/>
+<pathentry kind="mac" name="__DEC64_EPSILON__" path="" value="1E-15DD"/>
+<pathentry kind="mac" name="__DEC64_SUBNORMAL_MIN__" path="" value="0.000000000000001E-383DD"/>
+<pathentry kind="mac" name="__DEC128_MANT_DIG__" path="" value="34"/>
+<pathentry kind="mac" name="__DEC128_MIN_EXP__" path="" value="(-6142)"/>
+<pathentry kind="mac" name="__DEC128_MAX_EXP__" path="" value="6145"/>
+<pathentry kind="mac" name="__DEC128_MIN__" path="" value="1E-6143DL"/>
+<pathentry kind="mac" name="__DEC128_MAX__" path="" value="9.999999999999999999999999999999999E6144DL"/>
+<pathentry kind="mac" name="__DEC128_EPSILON__" path="" value="1E-33DL"/>
+<pathentry kind="mac" name="__DEC128_SUBNORMAL_MIN__" path="" value="0.000000000000000000000000000000001E-6143DL"/>
+<pathentry kind="mac" name="__REGISTER_PREFIX__" path="" value=" "/>
+<pathentry kind="mac" name="__USER_LABEL_PREFIX__" path="" value=" "/>
+<pathentry kind="mac" name="_FORTIFY_SOURCE" path="" value="2"/>
+<pathentry kind="mac" name="__GNUC_GNU_INLINE__" path="" value="1"/>
+<pathentry kind="mac" name="__NO_INLINE__" path="" value="1"/>
+<pathentry kind="mac" name="__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1" path="" value="1"/>
+<pathentry kind="mac" name="__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2" path="" value="1"/>
+<pathentry kind="mac" name="__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4" path="" value="1"/>
+<pathentry kind="mac" name="__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8" path="" value="1"/>
+<pathentry kind="mac" name="__GCC_HAVE_DWARF2_CFI_ASM" path="" value="1"/>
+<pathentry kind="mac" name="__PRAGMA_REDEFINE_EXTNAME" path="" value="1"/>
+<pathentry kind="mac" name="__SSP__" path="" value="1"/>
+<pathentry kind="mac" name="__SIZEOF_INT128__" path="" value="16"/>
+<pathentry kind="mac" name="__SIZEOF_WCHAR_T__" path="" value="4"/>
+<pathentry kind="mac" name="__SIZEOF_WINT_T__" path="" value="4"/>
+<pathentry kind="mac" name="__SIZEOF_PTRDIFF_T__" path="" value="8"/>
+<pathentry kind="mac" name="__amd64" path="" value="1"/>
+<pathentry kind="mac" name="__amd64__" path="" value="1"/>
+<pathentry kind="mac" name="__x86_64" path="" value="1"/>
+<pathentry kind="mac" name="__x86_64__" path="" value="1"/>
+<pathentry kind="mac" name="__k8" path="" value="1"/>
+<pathentry kind="mac" name="__k8__" path="" value="1"/>
+<pathentry kind="mac" name="__MMX__" path="" value="1"/>
+<pathentry kind="mac" name="__SSE__" path="" value="1"/>
+<pathentry kind="mac" name="__SSE2__" path="" value="1"/>
+<pathentry kind="mac" name="__SSE_MATH__" path="" value="1"/>
+<pathentry kind="mac" name="__SSE2_MATH__" path="" value="1"/>
+<pathentry kind="mac" name="__gnu_linux__" path="" value="1"/>
+<pathentry kind="mac" name="__linux" path="" value="1"/>
+<pathentry kind="mac" name="__linux__" path="" value="1"/>
+<pathentry kind="mac" name="linux" path="" value="1"/>
+<pathentry kind="mac" name="__unix" path="" value="1"/>
+<pathentry kind="mac" name="__unix__" path="" value="1"/>
+<pathentry kind="mac" name="unix" path="" value="1"/>
+<pathentry kind="mac" name="__ELF__" path="" value="1"/>
+<pathentry kind="mac" name="__DECIMAL_BID_FORMAT__" path="" value="1"/>
+<pathentry kind="mac" name="__cplusplus" path="" value="1"/>
+<pathentry kind="mac" name="__GNUG__" path="" value="4"/>
+<pathentry kind="mac" name="__GXX_WEAK__" path="" value="1"/>
+<pathentry kind="mac" name="__DEPRECATED" path="" value="1"/>
+<pathentry kind="mac" name="__GXX_RTTI" path="" value="1"/>
+<pathentry kind="mac" name="__EXCEPTIONS" path="" value="1"/>
+<pathentry kind="mac" name="_GNU_SOURCE" path="" value="1"/>
+<pathentry include="/home/jeppe/workspace-d3/robovision3d/host/CalTI/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/jeppe/workspace-d3/robovision3d/host/robot_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/hydro/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/hydro/include/opencv" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/qt4" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/qt4/QtGui" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/qt4/QtCore" kind="inc" path="" system="true"/>
+<pathentry include="/home/jeppe/workspace-d3/robovision3d/host/CalTI" kind="inc" path="" system="true"/>
+<pathentry include="/home/jeppe/dti_co_worker/trunk/common/RobWork/RobWork/ext" kind="inc" path="" system="true"/>
+<pathentry include="/home/jeppe/dti_co_worker/trunk/common/RobWork/RobWork/src" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/jeppe/dti_co_worker/trunk/common/RobWork/RobWork/ext/yaobi" kind="inc" path="" system="true"/>
+<pathentry include="/home/jeppe/dti_co_worker/trunk/common/RobWork/RobWork/ext/PQP" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/lua5.1" kind="inc" path="" system="true"/>
+<pathentry include="/home/jeppe/dti_co_worker/trunk/common" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/eigen3" kind="inc" path="" system="true"/>
+<pathentry include="/home/jeppe/dti_co_worker/trunk/common/Levmar-2.6" kind="inc" path="" system="true"/>
+<pathentry include="/usr/src/gtest/include" kind="inc" path="" system="true"/>
+<pathentry include="/usr/src/gtest" kind="inc" path="" system="true"/>
+<pathentry include="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" kind="inc" path="" system="true"/>
+<pathentry include="/usr/local/include" kind="inc" path="" system="true"/>
+<pathentry include="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/x86_64-linux-gnu" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/c++/4.6" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/c++/4.6/x86_64-linux-gnu" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/c++/4.6/backward" kind="inc" path="" system="true"/>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+<buildTargets>
+<target name="[exe] CalTI" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>CalTI</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[exe] CalTI/fast" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>CalTI/fast</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Build" path="[Targets]/[exe] CalTI" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-C "/home/jeppe/workspace-d3/robovision3d/host/CalTI" -j4</buildArguments>
+<buildTarget>CalTI</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Clean" path="[Targets]/[exe] CalTI" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/cmake</buildCommand>
+<buildArguments>-E chdir "/home/jeppe/workspace-d3/robovision3d/host/CalTI" "/usr/bin/cmake" -P "CMakeFiles/CalTI.dir/cmake_clean.cmake"</buildArguments>
+<buildTarget></buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": ROSBUILD_genmsg_cpp" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>ROSBUILD_genmsg_cpp</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": ROSBUILD_genmsg_lisp" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>ROSBUILD_genmsg_lisp</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": ROSBUILD_gensrv_cpp" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>ROSBUILD_gensrv_cpp</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": ROSBUILD_gensrv_lisp" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>ROSBUILD_gensrv_lisp</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": _catkin_empty_exported_target" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>_catkin_empty_exported_target</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean_test_results" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>clean_test_results</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": doxygen" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>doxygen</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": install" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>install</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": install/local" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>install/local</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": install/strip" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>install/strip</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": list_install_components" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>list_install_components</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": rebuild_cache" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>rebuild_cache</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": rosbuild_clean-test-results" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>rosbuild_clean-test-results</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": rosbuild_precompile" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>rosbuild_precompile</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": rosbuild_premsgsrvgen" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>rosbuild_premsgsrvgen</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": rospack_genmsg" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>rospack_genmsg</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": rospack_genmsg_libexe" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>rospack_genmsg_libexe</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": rospack_gensrv" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>rospack_gensrv</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": run_tests" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>run_tests</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": test" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>test</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": test-future" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>test-future</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": test-results" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>test-results</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": test-results-run" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>test-results-run</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": tests" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>tests</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": all" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>all</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>clean</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] include/CalTI/moc_CalibThread.cxx.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_CalibThread.cxx.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] include/CalTI/moc_CalibThread.cxx.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_CalibThread.cxx.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] include/CalTI/moc_CalibThread.cxx.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_CalibThread.cxx.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] include/CalTI/moc_Calibration.cxx.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_Calibration.cxx.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] include/CalTI/moc_Calibration.cxx.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_Calibration.cxx.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] include/CalTI/moc_Calibration.cxx.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_Calibration.cxx.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] include/CalTI/moc_HandEyeCalibration.cxx.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_HandEyeCalibration.cxx.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] include/CalTI/moc_HandEyeCalibration.cxx.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_HandEyeCalibration.cxx.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] include/CalTI/moc_HandEyeCalibration.cxx.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_HandEyeCalibration.cxx.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] include/CalTI/moc_ImgAnnotation.cxx.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_ImgAnnotation.cxx.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] include/CalTI/moc_ImgAnnotation.cxx.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_ImgAnnotation.cxx.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] include/CalTI/moc_ImgAnnotation.cxx.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_ImgAnnotation.cxx.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] include/CalTI/moc_MonoCalibration.cxx.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_MonoCalibration.cxx.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] include/CalTI/moc_MonoCalibration.cxx.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_MonoCalibration.cxx.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] include/CalTI/moc_MonoCalibration.cxx.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_MonoCalibration.cxx.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] include/CalTI/moc_SharedData.cxx.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_SharedData.cxx.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] include/CalTI/moc_SharedData.cxx.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_SharedData.cxx.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] include/CalTI/moc_SharedData.cxx.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_SharedData.cxx.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] include/CalTI/moc_StereoCalibration.cxx.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_StereoCalibration.cxx.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] include/CalTI/moc_StereoCalibration.cxx.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_StereoCalibration.cxx.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] include/CalTI/moc_StereoCalibration.cxx.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_StereoCalibration.cxx.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] include/CalTI/moc_config.cxx.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_config.cxx.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] include/CalTI/moc_config.cxx.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_config.cxx.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] include/CalTI/moc_config.cxx.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_config.cxx.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] include/CalTI/moc_dornaika.cxx.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_dornaika.cxx.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] include/CalTI/moc_dornaika.cxx.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_dornaika.cxx.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] include/CalTI/moc_dornaika.cxx.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_dornaika.cxx.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] include/CalTI/moc_main_window.cxx.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_main_window.cxx.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] include/CalTI/moc_main_window.cxx.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_main_window.cxx.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] include/CalTI/moc_main_window.cxx.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_main_window.cxx.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] include/CalTI/moc_qnode.cxx.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_qnode.cxx.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] include/CalTI/moc_qnode.cxx.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_qnode.cxx.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] include/CalTI/moc_qnode.cxx.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_qnode.cxx.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] include/CalTI/moc_rot.cxx.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_rot.cxx.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] include/CalTI/moc_rot.cxx.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_rot.cxx.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] include/CalTI/moc_rot.cxx.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_rot.cxx.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] include/CalTI/moc_tiv_types.cxx.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_tiv_types.cxx.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] include/CalTI/moc_tiv_types.cxx.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_tiv_types.cxx.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] include/CalTI/moc_tiv_types.cxx.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_tiv_types.cxx.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] include/CalTI/moc_ui_AnnotateDialog.cxx.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_ui_AnnotateDialog.cxx.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] include/CalTI/moc_ui_AnnotateDialog.cxx.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_ui_AnnotateDialog.cxx.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] include/CalTI/moc_ui_AnnotateDialog.cxx.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>include/CalTI/moc_ui_AnnotateDialog.cxx.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] qrc_images.cxx.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>qrc_images.cxx.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] qrc_images.cxx.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>qrc_images.cxx.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] qrc_images.cxx.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>qrc_images.cxx.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/calibration/CalibThread.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/CalibThread.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/calibration/CalibThread.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/CalibThread.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/calibration/CalibThread.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/CalibThread.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/calibration/Calibration.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/Calibration.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/calibration/Calibration.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/Calibration.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/calibration/Calibration.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/Calibration.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/calibration/HandEyeCalibration.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/HandEyeCalibration.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/calibration/HandEyeCalibration.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/HandEyeCalibration.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/calibration/HandEyeCalibration.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/HandEyeCalibration.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/calibration/MonoCalibration.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/MonoCalibration.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/calibration/MonoCalibration.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/MonoCalibration.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/calibration/MonoCalibration.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/MonoCalibration.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/calibration/StereoCalibration.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/StereoCalibration.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/calibration/StereoCalibration.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/StereoCalibration.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/calibration/StereoCalibration.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/StereoCalibration.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/calibration/dornaika.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/dornaika.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/calibration/dornaika.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/dornaika.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/calibration/dornaika.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/dornaika.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/calibration/rot.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/rot.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/calibration/rot.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/rot.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/calibration/rot.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/rot.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/calibration/tiv_test.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/tiv_test.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/calibration/tiv_test.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/tiv_test.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/calibration/tiv_test.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/tiv_test.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/calibration/tiv_types.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/tiv_types.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/calibration/tiv_types.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/tiv_types.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/calibration/tiv_types.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/calibration/tiv_types.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/gui/ImgAnnotation.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/gui/ImgAnnotation.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/gui/ImgAnnotation.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/gui/ImgAnnotation.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/gui/ImgAnnotation.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/gui/ImgAnnotation.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/gui/main_window.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/gui/main_window.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/gui/main_window.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/gui/main_window.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/gui/main_window.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/gui/main_window.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/main.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/main.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/main.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/main.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/main.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/main.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/marker/src/arucofidmarkers.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/arucofidmarkers.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/marker/src/arucofidmarkers.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/arucofidmarkers.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/marker/src/arucofidmarkers.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/arucofidmarkers.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/marker/src/board.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/board.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/marker/src/board.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/board.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/marker/src/board.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/board.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/marker/src/boarddetector.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/boarddetector.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/marker/src/boarddetector.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/boarddetector.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/marker/src/boarddetector.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/boarddetector.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/marker/src/cameraparameters.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/cameraparameters.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/marker/src/cameraparameters.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/cameraparameters.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/marker/src/cameraparameters.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/cameraparameters.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/marker/src/cvdrawingutils.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/cvdrawingutils.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/marker/src/cvdrawingutils.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/cvdrawingutils.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/marker/src/cvdrawingutils.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/cvdrawingutils.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/marker/src/marker.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/marker.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/marker/src/marker.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/marker.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/marker/src/marker.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/marker.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/marker/src/markerdetector.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/markerdetector.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/marker/src/markerdetector.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/markerdetector.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/marker/src/markerdetector.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/marker/src/markerdetector.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/qnode.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/qnode.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/qnode.cpp.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/qnode.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/qnode.cpp.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/qnode.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[lib] gtest" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>gtest</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[lib] gtest/fast" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>gtest/fast</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Build" path="[Targets]/[lib] gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-C "/home/jeppe/workspace-d3/robovision3d/host/CalTI" -j4</buildArguments>
+<buildTarget>gtest</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Clean" path="[Targets]/[lib] gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/cmake</buildCommand>
+<buildArguments>-E chdir "/home/jeppe/workspace-d3/robovision3d/host/CalTI/gtest" "/usr/bin/cmake" -P "CMakeFiles/gtest.dir/cmake_clean.cmake"</buildArguments>
+<buildTarget></buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[lib] gtest_main" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>gtest_main</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[lib] gtest_main/fast" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>gtest_main/fast</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Build" path="[Targets]/[lib] gtest_main" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-C "/home/jeppe/workspace-d3/robovision3d/host/CalTI" -j4</buildArguments>
+<buildTarget>gtest_main</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Clean" path="[Targets]/[lib] gtest_main" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/cmake</buildCommand>
+<buildArguments>-E chdir "/home/jeppe/workspace-d3/robovision3d/host/CalTI/gtest" "/usr/bin/cmake" -P "CMakeFiles/gtest_main.dir/cmake_clean.cmake"</buildArguments>
+<buildTarget></buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": all" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>all</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>clean</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/gtest-all.cc.o" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/gtest-all.cc.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/gtest-all.cc.i" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/gtest-all.cc.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/gtest-all.cc.s" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/gtest-all.cc.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/gtest_main.cc.o" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/gtest_main.cc.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/gtest_main.cc.i" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/gtest_main.cc.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/gtest_main.cc.s" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>src/gtest_main.cc.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+</buildTargets>
+</storageModule>
+<storageModule moduleId="scannerConfiguration">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="/usr/bin/gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="/usr/bin/make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+</storageModule>
+</cconfiguration>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<project id="CalTI.null.1" name="CalTI"/>
+</storageModule>
+</cproject>

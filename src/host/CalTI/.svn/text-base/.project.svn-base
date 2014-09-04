@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>CalTI-RelWithDebInfo@CalTI</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/kenh/ros_workspace/CalTI</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|ROS_ROOT=/opt/ros/fuerte/share/ros|ROS_PACKAGE_PATH=/opt/ros/fuerte/share:/opt/ros/fuerte/stacks:/home/kenh/dti_co_worker/trunk/dti_co_worker/:/home/kenh/dti_co_worker/trunk/common//Stacks/:/home/kenh/ros_workspace/|PYTHONPATH=/opt/ros/fuerte/lib/python2.7/dist-packages:|PATH=/opt/ros/fuerte/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/halcon/bin/x86sse2-linux2.4-gcc40:/opt/halcon/FLEXlm/x86sse2-linux2.4-gcc40|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/kenh/ros_workspace/CalTI</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI//images.qrc</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/resources/images.qrc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI//main_window_new.ui</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/ui/main_window_new.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI//main_window.ui</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/ui/main_window.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/main.cpp</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/src/main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/qnode.cpp</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/src/qnode.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/CalibThread.cpp</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/src/calibration/CalibThread.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/MonoCalibration.cpp</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/src/calibration/MonoCalibration.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/Calibration.cpp</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/src/calibration/Calibration.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/StereoCalibration.cpp</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/src/calibration/StereoCalibration.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/main_window.cpp</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/src/gui/main_window.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/ImgAnnotation.cpp</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/src/gui/ImgAnnotation.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/qrc_images.cxx</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/qrc_images.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/moc_ImgAnnotation.cxx</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_ImgAnnotation.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/moc_StereoCalibration.cxx</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_StereoCalibration.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/moc_SharedData.cxx</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_SharedData.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/moc_Calibration.cxx</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_Calibration.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/moc_ui_AnnotateDialog.cxx</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_ui_AnnotateDialog.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/moc_qnode.cxx</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_qnode.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/moc_MonoCalibration.cxx</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_MonoCalibration.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/moc_CalibThread.cxx</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_CalibThread.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/moc_config.cxx</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_config.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Source Files/moc_main_window.cxx</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_main_window.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Header Files/ui_main_window_new.h</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/ui_main_window_new.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Header Files/ui_main_window.h</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/ui_main_window.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/CMake Rules/moc_ImgAnnotation.cxx.rule</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_ImgAnnotation.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/CMake Rules/moc_StereoCalibration.cxx.rule</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_StereoCalibration.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/CMake Rules/moc_SharedData.cxx.rule</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_SharedData.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/CMake Rules/moc_Calibration.cxx.rule</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_Calibration.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/CMake Rules/moc_ui_AnnotateDialog.cxx.rule</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_ui_AnnotateDialog.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/CMake Rules/moc_qnode.cxx.rule</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_qnode.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/CMake Rules/moc_MonoCalibration.cxx.rule</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_MonoCalibration.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/CMake Rules/moc_CalibThread.cxx.rule</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_CalibThread.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/CMake Rules/moc_config.cxx.rule</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_config.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/CMake Rules/moc_main_window.cxx.rule</name>
+			<type>1</type>
+			<location>/home/kenh/ros_workspace/CalTI/include/CalTI/moc_main_window.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] CalTI/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

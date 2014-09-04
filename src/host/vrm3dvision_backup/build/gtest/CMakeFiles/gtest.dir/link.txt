@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O2 -g   -shared -Wl,-soname,libgtest.so -o /home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/lib/libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o -L/opt/ros/hydro/lib -L/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/build/gtest/src -lpthread -Wl,-rpath,/opt/ros/hydro/lib:/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/build/gtest/src 

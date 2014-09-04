@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>vrm3dvision-RelWithDebInfo@vrm3dvision</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|ROS_ROOT=/opt/ros/hydro/share/ros|ROS_PACKAGE_PATH=/home/jeppe/workspace-d3/robovision3d/host:/opt/ros/hydro/share:/opt/ros/hydro/stacks:/home/jeppe/workspace-d3/robovision3d|PYTHONPATH=/opt/ros/hydro/lib/python2.7/dist-packages|PATH=/opt/ros/hydro/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/halcon/bin/x64-linux2.4-gcc40:${HALCONROOT}/FLEXlm/x64-linux2.4-gcc40|LD_LIBRARY_PATH=/opt/ros/hydro/lib:/opt/ros/hydro/lib:/opt/halcon/lib/x64-linux2.4-gcc40|PKG_CONFIG_PATH=/opt/ros/hydro/lib/pkgconfig|CMAKE_PREFIX_PATH=/opt/ros/hydro|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Subprojects]/gtest</name>
+			<type>2</type>
+			<location>/usr/src/gtest</location>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pcl_pointcloud_viewer</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pcl_pointcloud_viewer/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pcl_pointcloud_viewer/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pcl_pointcloud_viewer/Source Files/pcl_pointcloud_viewer_node.cpp</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/src/pcl_pointcloud_viewer/pcl_pointcloud_viewer_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pcl_pointcloud_viewer/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pcl_pointcloud_viewer/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pcl_pointcloud_viewer/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_estimation_node</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_estimation_node/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_estimation_node/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_estimation_node/Source Files/pose_estimation_node.cpp</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/src/pose_estimation/pose_estimation_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_estimation_node/Source Files/pose_estimator.cpp</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/src/pose_estimation/pose_estimator.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_estimation_node/Source Files/surface_model_estimator.cpp</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/src/pose_estimation/surface_model_estimator.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_estimation_node/Source Files/object_model.cpp</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/src/pose_estimation/object_model.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_estimation_node/Source Files/alignment_prerejective.cpp</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/src/pose_estimation/alignment_prerejective.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_estimation_node/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_estimation_node/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_estimation_node/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_calibration_node</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_calibration_node/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_calibration_node/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_calibration_node/Source Files/vrm_calibration_node.cpp</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/src/vrm_calibration/vrm_calibration_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_calibration_node/Source Files/vrm_calibration.cpp</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/src/vrm_calibration/vrm_calibration.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_calibration_node/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_calibration_node/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_calibration_node/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_command_node</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_command_node/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_command_node/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_command_node/Source Files/vrm_command_node.cpp</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/src/vrm_command/vrm_command_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_command_node/Source Files/vrm_command.cpp</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/src/vrm_command/vrm_command.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_command_node/Source Files/MsgHeaders.pb.cc</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/common/vrm_protocol/MsgHeaders.pb.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_command_node/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_command_node/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_command_node/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_image_proc</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_image_proc/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_image_proc/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_image_proc/Source Files/vrm_image_proc_node.cpp</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/src/vrm_image_proc/vrm_image_proc_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_image_proc/Source Files/vrm_image_proc.cpp</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/src/vrm_image_proc/vrm_image_proc.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_image_proc/Source Files/structured_light_reconstruction.cpp</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/src/vrm_image_proc/structured_light_reconstruction.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_image_proc/Source Files/occlusion_mask.cpp</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/src/vrm_image_proc/occlusion_mask.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_image_proc/Source Files/MsgHeaders.pb.cc</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/common/vrm_protocol/MsgHeaders.pb.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_image_proc/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_image_proc/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_image_proc/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_log_node</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_log_node/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_log_node/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_log_node/Source Files/vrm_log_node.cpp</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/src/vrm_log/vrm_log_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_log_node/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_log_node/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] vrm_log_node/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zmq_image_publisher_node</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zmq_image_publisher_node/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zmq_image_publisher_node/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zmq_image_publisher_node/Source Files/zmq_image_publisher_node.cpp</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/src/zmq_image_publisher/zmq_image_publisher_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zmq_image_publisher_node/Source Files/MsgHeaders.pb.cc</name>
+			<type>1</type>
+			<location>/home/jeppe/workspace-d3/robovision3d/common/vrm_protocol/MsgHeaders.pb.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zmq_image_publisher_node/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zmq_image_publisher_node/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] zmq_image_publisher_node/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Source Files/gtest-all.cc</name>
+			<type>1</type>
+			<location>/usr/src/gtest/src/gtest-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Source Files/gtest_main.cc</name>
+			<type>1</type>
+			<location>/usr/src/gtest/src/gtest_main.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

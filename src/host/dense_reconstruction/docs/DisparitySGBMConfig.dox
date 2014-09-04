@@ -1,0 +1,16 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~prefilter_cap" : \b [int] Bound on normalized pixel values min: 1, default: 63, max: 63
+- \b "~min_disparity" : \b [int] Disparity to begin search at, pixels (may be negative) min: -512, default: 512, max: 1024
+- \b "~disparity_range" : \b [int] Number of disparities to search, pixels min: -512, default: 192, max: 512
+- \b "~uniqueness_ratio" : \b [double] Filter out if best match does not sufficiently exceed the next-best match min: 0.0, default: 15.0, max: 100.0
+- \b "~SADWindowSize" : \b [int] Matched block size. It must be an odd number >=1 min: 3, default: 7, max: 11
+- \b "~P1" : \b [int] Penalty on the disparity change min: 0, default: 64, max: 512
+- \b "~P2" : \b [int] Disparity smoothness min: 0, default: 128, max: 512
+- \b "~speckle_size" : \b [int] Reject regions smaller than this size, pixels min: 0, default: 200, max: 1000
+- \b "~speckle_range" : \b [int] Max allowed difference between detected disparities min: 0, default: 2, max: 40
+- \b "~disp12MaxDiff" : \b [int] Maximum allowed difference (in integer pixel units) in the left-right disparity check min: -10, default: -1, max: 10
+- \b "~fullDP" : \b [bool] Set it to true to run the full-scale two-pass dynamic programming algorithm min: False, default: True, max: True
+

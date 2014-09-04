@@ -1,0 +1,89 @@
+package vrm_protocol;
+
+message CmdHeader {
+	optional uint32 msg_id = 1;
+	optional double timestamp = 2;
+	optional VrmCmd	command = 3;
+	optional CamMode cam_mode = 4;
+	optional TrigMode trig_mode = 5;
+	optional double frame_rate = 6;
+	optional bool pattern_partial_view = 7;
+	optional uint32 pattern_resolution = 8;
+	optional PatternType pattern_type = 9;
+	repeated double exposure_grey = 10;
+	repeated double exposure_color = 11;
+	repeated double gain = 12;
+	optional CamCalib left_cam = 13;
+	optional CamCalib right_cam = 14;
+	optional CamCalib color_cam = 15;
+	optional ActiveCams active_cams = 16;
+	optional bool simple_occlusion = 17;
+	optional bool point_colors = 18;
+}
+
+message ImgGroupHeader {
+	optional uint32 msg_id = 1;
+	optional double timestamp = 2;
+	optional CamMode cam_mode = 3;
+	optional uint32 sequence_id = 4;
+	optional uint32 image_id = 5;
+	optional uint32 num_images = 6;
+	optional uint32 exposure_id = 7;
+	optional uint32 num_exposures = 8;
+	optional bool is_full_view = 9;
+	optional bool has_left_img = 10;
+	optional bool has_right_img = 11;
+	optional bool has_color_img = 12;
+	optional bool has_ambient_img = 13;
+	optional bool has_point_color_img = 14;
+	optional PatternType pattern_type = 15;
+}
+
+enum VrmCmd {
+	CMD_UNKNOWN = 0;
+	CMD_SET_PARAMETERS = 1;
+	CMD_TRIGGER_CAM = 2;
+	CMD_SEND_CALIB = 3;
+	CMD_UPDATE_CALIB = 4;
+}
+
+enum CamMode {
+	MODE_UNKNOWN = 0;
+	MODE_STREAMING = 1;
+	MODE_STRIPE_PATTERN = 2;
+	MODE_RANDOM_DOT_PATTERN = 3;
+	MODE_HDR = 4;
+}
+
+enum TrigMode {
+	TRIG_UNKNOWN = 0;
+	TRIG_INTERNAL = 1;
+	TRIG_EXTERNAL = 2;
+	TRIG_SOFTWARE = 3;
+}
+
+enum ActiveCams {
+	CAMS_NONE = 0;
+	CAMS_LEFT_CENTER_RIGHT = 1;
+	CAMS_LEFT_RIGHT = 2;
+	CAMS_LEFT_CENTER = 3;
+	CAMS_CENTER_RIGHT = 4;
+}
+
+enum PatternType {
+	PATTERN_CONV_GC = 0;
+	PATTERN_LARGE_GAP_GC = 1;
+}
+
+message CamCalib {
+  optional VrmMatrix cam_mat = 1;
+  optional VrmMatrix dist_coef = 2;
+  optional VrmMatrix rect_mat = 3;
+  optional VrmMatrix proj_mat = 4; 
+}
+
+message VrmMatrix {
+  required uint32 rows = 1;
+  required uint32 cols = 2;
+  repeated double data = 3 [packed = true];
+}

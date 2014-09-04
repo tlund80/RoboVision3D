@@ -1,0 +1,2 @@
+uint32 model_points
+uint32 coverage #Between 0-100%

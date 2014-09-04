@@ -1,0 +1,2 @@
+string resource_uuid
+string network

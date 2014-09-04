@@ -1,0 +1,7 @@
+int32 INTERNAL_TRIGGER = 1
+int32 EXTERNAL_TRIGGER = 2
+int32 SOFT_TRIGGER = 3
+
+int32 type
+---
+bool success

@@ -1,0 +1,23 @@
+<package>
+  <description brief="CalTI">
+
+     CalTI
+
+  </description>
+  <author>KENH/THSO</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/CalTI</url>
+  <depend package="qt_build"/>
+  <depend package="roscpp"/>
+  <depend package="opencv2"/>
+  <depend package="image_transport"/>
+  <depend package="cv_bridge"/>
+  <depend package="sensor_msgs"/>
+  <depend package="camera_info_manager"/>
+  <depend package="robot_msgs"/>
+
+  <rosdep name="libqt4-dev"/>
+  <depend package="qt_build"/>
+  <depend package="roscpp"/>
+</package>

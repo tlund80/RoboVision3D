@@ -1,0 +1,8 @@
+string action_name
+uint32 action_id
+uint32 action_instance_id
+uint32 action_type
+uint32 skill_instance_id
+uint32 layer
+uint32 actionInSkillCount
+GUICondition[] conditions

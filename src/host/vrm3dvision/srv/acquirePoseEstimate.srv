@@ -1,0 +1,8 @@
+string model
+string method
+string exposure
+bool manual_trigger
+SurfaceModelParams smp
+AlignmentPrerejectiveParams app
+---
+bool success

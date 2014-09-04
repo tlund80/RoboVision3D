@@ -1,0 +1,7 @@
+<launch>
+        <group ns="/DTI">
+                <node pkg="CalTI" type="CalTI" name="CalibrationGUI" output="screen">
+                </node>
+
+        </group>
+</launch>

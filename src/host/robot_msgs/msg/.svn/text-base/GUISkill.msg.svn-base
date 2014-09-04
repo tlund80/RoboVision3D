@@ -1,0 +1,12 @@
+uint32 skill_id
+string skill_uuid
+string skill_name
+uint32 cell_id
+uint32 template_id
+bool isTemplateSkill
+GUIAction[] action_list
+GUICondition[] conditions
+GUIParameter[] parameters
+uint32 created_by
+string creation_timestamp
+bool isLocked

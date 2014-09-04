@@ -1,0 +1,32 @@
+<launch>
+
+  <arg name="board_ip" 		default="127.0.0.1" />
+  <arg name="has_left_cam" 	default="true" />
+  <arg name="has_right_cam" 	default="true" />
+  <arg name="has_color_cam" 	default="false" />
+  <arg name="image_path"	default="/home/jeppe/workspace/stl/D3/new/" />
+  <arg name="sequence_id"	default="2" />
+
+        <group ns="/vrm3dvision/">
+                <node pkg="vrm3dvision" type="vrm_log_node" name="VrmLogNode" output="screen">
+			<param name="vrm_board_ip" value="$(arg board_ip)" />
+                </node>
+
+                <node pkg="vrm3dvision" type="vrm_command_node" name="VrmCommandNode" output="screen">
+			<param name="vrm_board_ip" value="$(arg board_ip)" />
+                </node>
+
+                <node pkg="vrm3dvision" type="vrm_image_proc" name="VrmImageProcNode" output="screen">
+			<param name="vrm_board_ip" value="$(arg board_ip)" />
+			<param name="has_left_camera" value="$(arg has_left_cam)" />
+			<param name="has_right_camera" value="$(arg has_right_cam)" />
+			<param name="has_color_camera" value="$(arg has_color_cam)" />
+			<param name="stereo_camera_topic" value="stereo_cam" />
+			<param name="color_cam_topic" value="color_cam" />
+			<param name="calibration_path" value="$(arg image_path)" />
+                </node>
+
+		<node pkg="vrm3dvision" type="zmq_image_publisher_node" name="ZMQimagePublisher" args="$(arg sequence_id) $(arg image_path) $(arg image_path)" />		
+
+        </group>
+</launch>

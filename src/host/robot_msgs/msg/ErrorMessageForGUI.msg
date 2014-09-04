@@ -1,0 +1,10 @@
+bool unknown
+string error_session_id
+string error_code
+string error_class_text
+string error_debug_text
+string failure_code
+string failure_text
+string response_code
+string response_description
+string[] response_actions

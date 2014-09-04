@@ -1,0 +1,1 @@
+uint32 operating_state

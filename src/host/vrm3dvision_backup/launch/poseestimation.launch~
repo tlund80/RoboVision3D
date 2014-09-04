@@ -1,0 +1,54 @@
+<launch>
+
+  <arg name="image_path"	default="/home/jeppe/workspace-d3/robovision3d/host/vrm3dvision/TestData/15cm/15cmTrafo" />
+  <arg name="layers"		default="8" />
+
+  <arg name="board_ip" 		default="127.0.0.1" />
+  <arg name="has_left_cam" 	default="true" />
+  <arg name="has_right_cam" 	default="true" />
+  <arg name="has_color_cam" 	default="false" />
+
+  <arg name="point_cloud_topic" default="point_cloud" />
+  <arg name="point_cloud_trimmed_topic" default="point_cloud_trimmed" />
+
+        <group ns="/vrm3dvision/">
+                <node pkg="vrm3dvision" type="vrm_log_node" name="VrmLogNode" output="screen">
+			<param name="vrm_board_ip" value="$(arg board_ip)" />
+                </node>
+
+                <node pkg="vrm3dvision" type="vrm_command_node" name="VrmCommandNode" output="screen">
+			<param name="vrm_board_ip" value="$(arg board_ip)" />
+                </node>
+
+                <node pkg="vrm3dvision" type="vrm_image_proc" name="VrmImageProcNode" output="screen" >
+			<param name="vrm_board_ip" value="$(arg board_ip)" />
+			<param name="has_left_camera" value="$(arg has_left_cam)" />
+			<param name="has_right_camera" value="$(arg has_right_cam)" />
+			<param name="has_color_camera" value="$(arg has_color_cam)" />
+			<param name="stereo_camera_topic" value="stereo_cam" />
+			<param name="color_cam_topic" value="color_cam" />		
+			<param name="calibration_path" value="$(arg image_path)" />
+			<param name="visualization" value="false" />
+			<param name="no_of_layers_structured_light" value="$(arg layers)" />
+			<param name="point_cloud_pub_topic" value="$(arg point_cloud_topic)" />			
+			<param name="point_cloud_trimmed_pub_topic" value="$(arg point_cloud_trimmed_topic)" />
+			<param name="publish_trimmed_point_cloud" value="true" />			
+			<param name="z_trim_distance" value="0.385" />
+                </node>	
+		<node pkg="vrm3dvision" type="pcl_pointcloud_viewer" name="PCLPCviewer" output="screen">
+			<param name="point_cloud_subscriber_topic" value="$(arg point_cloud_trimmed_topic)" />
+		</node> 
+
+                <node pkg="vrm3dvision" type="pose_estimation_node" name="PoseEstimationNode" output="screen" >
+
+			<param name="acquire_pose_estimate_service_name" value="acquire_pose_estimate" />
+			<param name="point_cloud_subscriber_topic" value="$(arg point_cloud_topic)" />
+			<param name="camera_frame" value="camera" />
+			<param name="object_frame" value="object" />
+			<param name="model_mesh_publisher_topic" value="model_mesh" />		
+                </node>	
+
+		<node pkg="vrm3dvision" type="zmq_image_publisher_node" name="ZMQimagePublisher" args="$(arg image_path) $(arg layers)" output="screen"/>		
+
+        </group>
+</launch>

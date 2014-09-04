@@ -1,0 +1,13 @@
+#int32 sm_sg_id
+#string sm_id
+int32 sm_id
+string name
+string type
+float64 clustering_threshold
+int64 anomaly_threshold
+int32[] sensor_sg_id
+string[] sensor_address
+string[] sensor_name
+int32[] sa_wait_for_sync
+int32[] cluster
+bool found_situation_model

@@ -1,0 +1,38 @@
+<launch>
+
+  <arg name="board_ip" 		default="192.168.50.10" />
+  <arg name="has_left_cam" 	default="true" />
+  <arg name="has_right_cam" 	default="true" />
+  <arg name="has_color_cam" 	default="false" />
+
+        <group ns="/vrm3dvision/">
+                <node pkg="vrm3dvision" type="vrm_log_node" name="VrmLogNode" output="screen">
+			<param name="vrm_board_ip" value="$(arg board_ip)" />
+                </node>
+
+                <node pkg="vrm3dvision" type="vrm_command_node" name="VrmCommandNode" output="screen">
+			<param name="vrm_board_ip" value="$(arg board_ip)" />
+                </node>
+
+                <node pkg="vrm3dvision" type="vrm_image_proc" name="VrmImageProcNode" output="screen">
+			<param name="vrm_board_ip" value="$(arg board_ip)" />
+			<param name="has_left_camera" value="$(arg has_left_cam)" />
+			<param name="has_right_camera" value="$(arg has_right_cam)" />
+			<param name="has_color_camera" value="$(arg has_color_cam)" />
+			<param name="stereo_camera_topic" value="stereo_cam" />
+			<param name="color_cam_topic" value="$color_cam" />
+                </node>		
+
+<!--		<node pkg="stereo_image_proc" name="StereoImageProc" type="stereo_image_proc" output="screen"/> -->
+
+                <node pkg="dense_reconstruction" type="dense_reconstruction" name="DenseReconstructionNode" output="screen">
+			<param name="algorithm" value="1" />
+                </node>
+
+        </group>
+
+	<node pkg="image_view" type="stereo_view" name="StereoImageView" output="screen">
+		<remap from="image" to="image_rect" />
+		<remap from="stereo" to="/vrm3dvision"/>
+	</node>
+</launch>

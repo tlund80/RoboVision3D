@@ -1,0 +1,5 @@
+int32 action
+string parameter_uuid
+GUIParameter parameter
+string model_parameter_uuid
+uint32 type

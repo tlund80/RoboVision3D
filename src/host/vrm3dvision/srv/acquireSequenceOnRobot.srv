@@ -1,0 +1,6 @@
+string model
+string method
+string exposure
+string save_path
+---
+bool success

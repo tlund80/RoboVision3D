@@ -1,0 +1,2 @@
+rosrun camera_calibration cameracalibrator.py --si 9x6 --square 0.0075 right:=/vrm3dvision/right/image_raw left:=/vrm3dvision/left/image_raw right_camera:=/vrm3dvision/right left_camera:=/vrm3dvision/left
+

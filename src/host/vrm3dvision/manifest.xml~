@@ -1,0 +1,36 @@
+<package>
+  <description brief="vrm3dvision">
+
+     vrm3dvision
+
+  </description>
+  <author>Jeppe Pedersen</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/vrm3dvision</url>
+
+  <depend package="catkin"/>
+  <depend package="cmake_modules"/>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="image_transport"/>
+  <depend package="opencv2"/>
+  <depend package="cv_bridge"/>
+  <depend package="sensor_msgs"/>
+  <depend package="camera_info_manager"/>
+  <depend package="driver_base"/>
+  <depend package="dynamic_reconfigure"/>
+  <depend package="pcl_ros"/>
+  <depend package="tf_conversions"/>
+  <depend package="tf"/>
+  <depend package="pcl_conversions"/>
+  <depend package="actionlib"/>
+  <depend package="robot_msgs"/>
+  <depend package="pluginlib"/>
+  <depend package="moveit_core"/>
+  <depend package="moveit_ros_planning_interface"/>
+  <depend package="moveit_ros_perception"/>
+
+</package>
+
+

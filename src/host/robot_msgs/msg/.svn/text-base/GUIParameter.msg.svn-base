@@ -1,0 +1,10 @@
+string parameter_uuid
+string parameter_type_system_name
+string datatype_name
+string value
+uint32 parameter_type_id
+string parameter_type_user_name
+uint8 isOutput
+string input_parameter
+string[] standard_values
+uint8 hasChanged

@@ -1,0 +1,10 @@
+int32 LEFT_CAMERA = 1
+int32 RIGHT_CAMERA = 2
+int32 LEFT_AND_RIGHT_CAMERA = 3
+int32 COLOR_CAMERA = 4
+int32 ALL_CAMERAS = 7
+
+int32 camera
+string exposure
+---
+bool success
