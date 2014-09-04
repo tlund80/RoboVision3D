@@ -1,0 +1,11 @@
+<launch>
+<group ns="/">
+	<node pkg="modelling_engine" type="modelling_engine" name="modelling_engine" respawn="false" output="screen">
+	  <param name="point_cloud_topic" value="/model_scan"/>
+	  <param name="sensor_frame" value="sensor_frame"/>
+	  <param name="robotbase_frame" value="RobotBase"/>
+	  <param name="remove_table" value="false"/>
+	  <param name="preprocess_cloud" value="false"/>
+	</node>
+</group>
+</launch>

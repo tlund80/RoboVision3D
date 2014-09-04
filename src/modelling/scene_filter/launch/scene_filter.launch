@@ -1,0 +1,17 @@
+<launch>
+
+    <param name="robot_base_frame_name" value="base_link"/>
+    <param name="joint1_name" value="shoulder_link"/>
+    <param name="joint2_name" value="upper_arm_link"/>
+    <param name="joint3_name" value="forearm_link"/>
+    <param name="joint4_name" value="wrist_1_link"/>
+    <param name="joint5_name" value="wrist_2_link"/>
+    <param name="sensor_frame" value="sensor_frame"/>
+    
+  <node pkg="scene_filter" type="scene_filter_node" name="scene_filter_node" output="screen" respawn="false">
+    <remap from="cloudIn" to="/ROS_Sensor/sensor_frame/cloud_out" />
+    <remap from="cloudOut" to="/scene_filter/cloud_out" />
+  </node>
+
+   
+</launch>
