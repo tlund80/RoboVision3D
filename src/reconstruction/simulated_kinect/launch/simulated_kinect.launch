@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+  <group ns="/">
+    <param name="deviceName" value="EasyBot" />
+    <param name="tcpFrameName" value="TrafoGripper_TCP" />
+    <param name="sensorFrameName" value="sensor_frame" />
+    <param name="scene_desc" value="$(env DTI_COMMON_ROOT)/workcells/co-worker-mini-v2_carmine/co-worker_mini.wc.xml" />
+    <node pkg="simulated_kinect" name="simulated_kinect" type="simulated_kinect" output="screen" args=""/>
+  </group>
+
+        
+</launch>
+

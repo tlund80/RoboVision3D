@@ -1,0 +1,15 @@
+<launch>
+
+<group ns="/structured_light_scanner">
+	<node pkg="structured_light_scanner" type="structured_light_scanner" name="structured_light_scanner" respawn="false" output="screen">
+        	<param name="left_image_topic" value="/stereo/left/image_color"/>
+		<param name="right_image_topic" value="/stereo/right/image_mono"/>
+		<param name="left_camera_name" value="21135383" />
+		<param name="right_camera_name" value="21205085" />
+		<param name="calib_path_left" value="$(env HOME)/.ros/camera_info/21205084.yaml" />
+		<param name="calib_path_right" value="$(env HOME)/.ros/camera_info/21205085.yaml" />
+		<param name="store_path" value="$(find structured_light_scanner)/data/output.pcd"/>
+		<param name="num_of_patterns" value="9" />
+	</node>
+</group>
+</launch>

@@ -1,0 +1,14 @@
+#goal definition
+string scan 					#XML description/definition of primitive
+---
+#result definition
+bool 	success					# true/false
+uint32 	cloud_id				# id of the point cloud (counter since last reset)
+time 	scan_request_received	# Timestamp for when the scan request was recieved by the 3D sensor
+float32   scan_time				# Scan time in milliseconds
+sensor_msgs/PointCloud2 pc		# Point Cloud from the Scan process..
+---
+#feedback
+int8 	progress				# Progress of the scanning process
+int16 	state					# STOPPED=0, RECEIVED=1, STARTED=2, FINISHED=3, FAILED=-1
+time 	scan_request_received	# timestamp for when the primitive was recieved at the primitive executor..
