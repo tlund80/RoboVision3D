@@ -1,0 +1,17 @@
+# Halcon parameter
+float64 RelSamplingDistance
+# Is it a tabletop application 
+bool table_top
+# Leaf size for voxel grid downsampling (point cloud resolution)
+float64 leaf_size
+# Path to the store surface model
+string surface_model_path
+# model_id
+string model_id
+---
+# Pose of the object
+robot_msgs/ResultPose pose
+# Aligned Model
+sensor_msgs/PointCloud2 alig_model
+
+bool isReady

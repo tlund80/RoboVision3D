@@ -1,0 +1,13 @@
+# Input model
+sensor_msgs/PointCloud2 model
+# Path to store the surface model
+string surface_model_path
+# Human readable name of the model
+string model_name
+# Halcon parameter
+float64 RelSamplingDistance
+---
+#ID of the model as string
+string model_id
+# Is surface model ready?
+bool isReady

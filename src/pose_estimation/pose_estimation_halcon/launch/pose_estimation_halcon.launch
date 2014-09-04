@@ -1,0 +1,15 @@
+<launch>
+   <!-- Visualizer connects to pose estimation -->
+   <node pkg="point_cloud_visualization" name="point_cloud_visualization" type="point_cloud_visualization" output="screen">
+       <param name="source" value="/pose_estimation_halcon"/>
+       <param name="topic" value="/result"/>
+   </node>
+
+<group ns="/">
+	<node pkg="pose_estimation_halcon" type="pose_estimation_halcon" name="pose_estimation_halcon" respawn="false" output="screen">
+        <param name="point_cloud_topic" value="/cloud_pcd"/>
+        <param name="scene_cloud_path" value="$(find pose_estimation_halcon)/data/single_cylinder.pcd"/>
+        <param name="model_cloud_path" value="$(find pose_estimation_halcon)/data/box.pcd"/>
+	</node>
+</group>
+</launch>
