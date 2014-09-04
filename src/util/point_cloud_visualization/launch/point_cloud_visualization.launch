@@ -1,0 +1,8 @@
+<launch>
+   <!-- Visualizer subscribes to the topics of this node -->
+   <node pkg="point_cloud_visualization" name="point_cloud_visualization" type="point_cloud_visualization" output="screen">
+       <param name="source" value="ROS_Sensor/sensor_frame"/>
+       <param name="topic" value="cloud_out"/>
+   </node>
+   
+</launch>
