@@ -1,0 +1,28 @@
+<launch>
+
+  <node pkg="next_best_view_planner" type="next_best_view_planner_node" name="next_best_view_planner_node" output="screen" respawn="false"> <!--launch-prefix="xterm -e gdb -args"-->
+    <param name="workcell_file_name" value="/home/thso/dti_co_worker/trunk/common/workcells/co-worker-mini-v2_carmine/co-worker_mini.wc.xml"/>
+    <param name="device_name" value="EasyBot"/>
+    <param name="planning_frame" value="cam_orgin"/>
+    <param name="nbv_pose_topic" value="EasyBot"/>
+    <param name="velocity" value="1.0"/>
+    <param name="acceleration" value="1.2"/>
+    <param name="planner_type" value="prm"/>
+    <param name="collisionCheckingStrategy" value="lazy"/>
+    <param name="neighborSearchStrategy" value="brute_force"/>
+    <param name="shortestPathSearchStrategy" value="dijkstra"/>
+    <param name="roadmapNodecount" value="1000"/>
+    <param name="maxtime" value="5.0"/>
+    <param name="resolution" value="0.01"/>
+    <param name="extend" value="0.01"/>
+    <param name="optimization" value="pathlength"/>
+    <param name="clearance_step_size" value="0.1"/>
+    <param name="clearance_max_count" value="0"/>
+    <param name="clearance_max_time" value="20.0"/>
+    <param name="pathlength_resolution" value="0.01"/>
+
+  </node>
+
+
+
+</launch>

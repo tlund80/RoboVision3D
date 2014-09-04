@@ -1,0 +1,25 @@
+<launch>
+
+  <node pkg="next_best_view" type="next_best_view_node" name="next_best_view_node" output="screen" respawn="false"> <!--launch-prefix="xterm -e gdb -args"-->
+    <param name="sensor_frame" value="/sensor_frame"/>
+    <param name="octree_resolution" value="0.005"/>
+    <param name="octree_maxrange" value="-1"/>
+    <param name="input_cloud_topic" value="/model_scan"/>
+    <param name="visualize_octree" value="true"/>
+    <param name="visualize_free_cells" value="false"/>
+    <param name="visualize_unknown_cells" value="true"/>
+    <param name="min_pts_per_cluster" value="10"/>
+    <param name="tolerance" value="0.2"/>
+    <param name="eps_angle" value="0.4"/>
+    <param name="normal_search_radius" value="0.005"/>
+    <param name="boundary_angle_threshold" value="1.57"/>
+    <param name="boundary_est_radius" value="0.01"/>
+    <param name="leaf_size" value="0.0005"/>
+	
+    <remap from="cloudIn" to="/octomap/octomap_point_cloud_centers" />
+    <remap from="octomapIn" to="/octomap/octomap_binary" />
+  </node>
+
+
+
+</launch>
